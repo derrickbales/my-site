@@ -34,15 +34,25 @@ export const Home = () => (
     <ul>
       <li>
         {' '}
-        <a href="www.instagram.com/derrickkbales">INSTAGRAM</a>
+        <a
+          className="App-link"
+          href="https://instagram.com/derrickkbales"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          INSTAGRAM
+        </a>
       </li>
       <li>
         {' '}
-        <a href="www.instagram.com/derrickbales">YOUTUBE</a>
-      </li>
-      <li>
-        {' '}
-        <a href="www.instagram.com">STORE</a>
+        <a
+          className="App-link"
+          href="https://youtube.com/derrickbales"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          YOUTUBE
+        </a>
       </li>
     </ul>
     <ul>
