@@ -6,15 +6,17 @@ import Navbar from 'react-bootstrap/Navbar';
 
 const Styles = styled.div`
   .navbar {
-    background-color: #222;
+    background-color: transparent !important;
+    border-color: transparent;
+    background-image: none;
+    box-shadow: none;
+    font-family: 'Work Sans', sans-serif;
   }
-
-  .navbar-brand,
   .navbar-nav .nav-link {
-    color: #bbb;
+    color: black;
 
     &:hover {
-      color: white;
+      color: blue;
     }
   }
 `;
@@ -22,7 +24,6 @@ const Styles = styled.div`
 export const NavigationBar = () => (
   <Styles>
     <NavBar expand="lg">
-      <Navbar.Brand href="/">derrick</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse className="justify-content-end">
         <Nav>
